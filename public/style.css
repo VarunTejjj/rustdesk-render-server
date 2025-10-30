@@ -1,0 +1,9 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; background:#0f1720; color:#e6eef8; padding:32px; }
+.card { max-width:900px; margin:12px auto; background:#0b1220; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,.6); }
+h1 { margin:0 0 8px 0; font-size:20px; }
+.form { display:flex; gap:8px; margin:12px 0; }
+.form input { padding:8px 10px; font-size:14px; background:#071025; color:#eaf3ff; border:1px solid #22314a; border-radius:6px; }
+.form button { padding:8px 12px; background:#0ea5a8; color:#072a2a; border:none; border-radius:6px; cursor:pointer; }
+ul { list-style:none; padding-left:0; }
+li { padding:8px 0; border-bottom:1px solid #162534; }
+.empty { color:#9fb0c8; }
