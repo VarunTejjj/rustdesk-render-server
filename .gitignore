@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+screens/
+instance/
+.vscode/
+.DS_Store
