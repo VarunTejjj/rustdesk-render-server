@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>RustDesk Clone - Admin</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>RustDesk Clone — Admin Panel</h1>
+    <p>Enter Session ID and password to view user's screen (image auto-refresh).</p>
+
+    <div class="form">
+      <input id="session" placeholder="session_id (e.g. sess_abc123)" />
+      <input id="password" placeholder="password" value="@MadMax31" />
+      <button id="viewBtn">View Screen</button>
+    </div>
+
+    <hr/>
+    <h3>Active Sessions</h3>
+    <div id="sessions">Loading...</div>
+  </div>
+
+<script src="/admin.js"></script>
+</body>
+</html>
